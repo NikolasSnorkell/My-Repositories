@@ -1,0 +1,102 @@
+@font-face {
+    font-family: AkaiyaTelegala;
+    src: url("../fonts/AkayaTelivigala-Regular.ttf");
+}
+
+
+
+*{
+    font-family: AkaiyaTelegala;
+}
+
+
+
+body{
+    position: relative;
+}
+body::-webkit-scrollbar{
+    width: 5px;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: black;
+}
+
+#version{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.4rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.486);
+
+    border-radius: 5px;
+    position: fixed;
+    top: -50px;
+    left: 20px;
+}
+
+
+#snorkell_logo_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#snorkell_logo_block img{
+    width: 200px;
+    margin-top: 50px;
+    
+}
+
+
+#repositories_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 50px 0;
+}
+
+
+.repoCard{
+   
+    width: 600px;
+    height: 150px;
+
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+
+    transition: background-image 0.4s ease-in-out, opacity 0.5s ease-in-out;
+    position: relative;
+
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px black,-1px -1px 4px black;
+}
+
+.repoCard a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+
+    color: white;
+    font-size: 1.7rem;
+
+    position: absolute;
+    top: 0;left: 0;
+}
+
+.repoCard a>span{
+    background: rgba(0, 0, 0, 0.521);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
