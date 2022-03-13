@@ -24,6 +24,7 @@ function repoCardSample(link0,screen0,name0){
 repos.push(new repoCardSample("https://nikolassnorkell.github.io/trekking/","images/trekking","trekking free design"));
 repos.push(new repoCardSample("https://nikolassnorkell.github.io/HEX-Gradient-Generator/","images/Hex","Hex Gradient Back Generator"));
 repos.push(new repoCardSample("https://nikolassnorkell.github.io/Traffic-Simple-Game/","images/CarGame","Simple Car Traffic Game"));
+repos.push(new repoCardSample("https://nikolassnorkell.github.io/Matrix/","images/Matrix","Matrix"));
 repos.push(new repoCardSample("https://nikolassnorkell.github.io/Digital-Clock/","images/DigitClock","Simple Digital Clock"));
 repos.push(new repoCardSample("https://nikolassnorkell.github.io/Memory-Card-Game/","images/CardMemory","Memory Card Game"));
 // repos.push(new repoCardSample("","images/"));
