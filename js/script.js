@@ -104,7 +104,7 @@ let music_control_image;
 
 
 
-let back_music = new Audio("music/back3.wav");
+let back_music = new Audio("music/back3.mp3");
 back_music.volume=0;
 
 let click_sound = new Audio("music/click2.mp3");
