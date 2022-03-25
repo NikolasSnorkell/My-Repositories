@@ -403,12 +403,19 @@ if($(document).width()<768){
     $(".pages_card").toggleClass("click_card");
     $(".pages_front").toggleClass("click_card");
 
+} else {
+    $(".pages_card").toggleClass("click_card");
+    $(".pages_front").toggleClass("click_card");
 }
 
 $(".click_card").click(function(){
 
-    if($(this).hasClass(".pages_card"))  window.open(repos[$(this).index()].link,"_blank");
-    else window.open(repos[$(this).parent(".pages_card").index()].link,"_blank");
+    if($(this).hasClass(".pages_card")) {
+         window.open(repos[$(this).index()].link,"_blank");
+    }
+    else {
+        window.open(repos[$(this).parent(".pages_card").index()].link,"_blank");
+    }
 })
 
 
