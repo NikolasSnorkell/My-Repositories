@@ -1,6 +1,21 @@
 
  let repos = [],currentElem;
 
+ $('#play').fadeOut(0);
+
+ $(document).ready(function() {
+    console.log("page finished loading now.");
+
+  
+    $('.play_wait').fadeOut(300);
+    setTimeout(() => {
+        $('#play').fadeIn(300);
+    }, 300);
+   
+});
+
+
+
 
 
 function repoCardSample(link0,screen0,name0){
@@ -245,7 +260,7 @@ $("#play").click(function(){
                                 scroll+=$(window).height();
                                 $('html, body').animate({
                                     scrollTop: scroll,
-                                }, 800);
+                                }, 1200);
                                 if(scroll>=($(".contact").position()).top){
                                     $('html, body').animate({
                                         scrollTop: 0,
@@ -253,7 +268,7 @@ $("#play").click(function(){
                                     clearInterval(animation_scroll);
                                     $("#stop_anim").fadeOut(500);
                                 }
-                            }, 1000);
+                            }, 1500);
                 },3700)
 
 

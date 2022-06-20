@@ -242,6 +242,11 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
+#play_start_cont p {
+  color: white;
+  font-size: 2rem;
+}
+
 #play {
   width: 250px;
   height: 250px;
