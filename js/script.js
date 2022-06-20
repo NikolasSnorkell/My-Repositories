@@ -3,7 +3,7 @@
 
  $('#play').fadeOut(0);
 
- $(document).ready(function() {
+ window.onload = function() {
     console.log("page finished loading now.");
 
   
@@ -12,7 +12,9 @@
         $('#play').fadeIn(300);
     }, 300);
    
-});
+};
+
+
 
 
 
