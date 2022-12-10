@@ -102,30 +102,7 @@ function toLink(link) {
   window.open(link, "_blank");
 }
 
-let countClick = 0;
-function rotate() {
-  countClick++;
 
-  if (countClick % 2 == 0) {
-    $("#main-right_part").animate(
-      {
-        opacity: "0",
-      },
-      400
-    );
-    setTimeout(() => {
-      $("#main-right_part").css("z-index", "1");
-    }, 400);
-  } else {
-    $("#main-right_part").css("z-index", "2");
-    $("#main-right_part").animate(
-      {
-        opacity: "1",
-      },
-      400
-    );
-  }
-}
 
 // Version Banner
 setTimeout(() => {
@@ -300,3 +277,31 @@ function toTopLeft(elem, size) {
 }
 
 circlesHub();
+
+
+
+
+let countClick = 0;
+function rotate() {
+  countClick++;
+
+  if (countClick % 2 == 0) {
+    $("#main-right_part").animate(
+      {
+        opacity: "0",
+      },
+      400
+    );
+    setTimeout(() => {
+      $("#main-right_part").css("z-index", "1");
+    }, 400);
+  } else {
+    $("#main-right_part").css("z-index", "2");
+    $("#main-right_part").animate(
+      {
+        opacity: "1",
+      },
+      400
+    );
+  }
+}

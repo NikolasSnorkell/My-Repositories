@@ -118,10 +118,10 @@ content {
   align-items: center;
   height: 100%;
   background: linear-gradient(45deg, rgb(240, 158, 111), rgb(207, 132, 88));
-  overflow: hidden;
 }
 
 content #version {
+  position: relative;
   width: 100px;
   height: 50px;
   display: flex;
@@ -142,7 +142,6 @@ content #main {
   display: flex;
   justify-content: center;
   box-shadow: 5px 5px 2px rgb(160, 106, 74);
-  overflow: hidden;
   background: rgb(59, 59, 59);
   border-radius: 20px;
   width: 70vw;
@@ -160,7 +159,7 @@ content #main #main-left_part {
 }
 
 content #main #main-left_part #main-left_overflow {
-  overflow-y: scroll;
+  overflow-y: hidden;
   background: rgb(59, 59, 59);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -377,6 +376,7 @@ content #main #main-right_part #main-right_overflow .main-right_repoCard p {
 }
 
 content #main #main-rotate-block {
+  z-index: 3;
   visibility: hidden;
   position: absolute;
   top: 2rem;
@@ -443,6 +443,8 @@ content #circle-container .circle {
 
   content #main {
     flex-direction: column;
+    width: 75vw;
+    height: 75vh;
   }
 
   content #main #main-left_part {
@@ -493,12 +495,6 @@ content #circle-container .circle {
   }
 }
 
-@media screen and (max-width: 600px) {
-  html {
-    font-size: 11px;
-  }
-}
-
 @media screen and (max-width: 450px) {
   content #main #main-left_part #main-left_overflow .main-logo .logo-img::before {
     left: -5px;
@@ -507,7 +503,7 @@ content #circle-container .circle {
 
 @media screen and (max-width: 400px) {
   html {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   content #main #main-right_part #main-right_overflow .main-right_repoCard {
