@@ -1,0 +1,42 @@
+[
+  {
+    "link": "https://nikolassnorkell.github.io/trekking/",
+    "path": "img/trekking",
+    "name": "Trekking free design"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Beauty-Saloon/",
+    "path": "img/Beauty_Saloon",
+    "name": "Beauty Saloon Template"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/HEX-Gradient-Generator/",
+    "path": "img/Hex",
+    "name": "Hex Gradient Back Generator"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Snake/",
+    "path": "img/Snake",
+    "name": "Snake Game"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Traffic-Simple-Game/",
+    "path": "img/CarGame",
+    "name": "Simple Car Traffic Game"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Matrix/",
+    "path": "img/Matrix",
+    "name": "Matrix"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Digital-Clock/",
+    "path": "img/DigitClock",
+    "name": "Simple Digital Clock"
+  },
+  {
+    "link": "https://nikolassnorkell.github.io/Memory-Card-Game/",
+    "path": "img/CardMemory",
+    "name": "Memory Card Game"
+  }
+]
